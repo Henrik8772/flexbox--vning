@@ -188,24 +188,25 @@ a:hover {
     background-color: 0.6;
 }
 
+footer {
+    margin: 0;
+}
+
 .site-footer {
     font-size: var(--step-3);
     text-transform: uppercase;
     padding: 1rem;
-    margin-left: 1rem;
     justify-content: space-around;
-}
-
-.nav-foot {
     background-color: var(--first-color);
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    align-content: center;
     align-items: center;
-    margin-left: auto;
     max-height: 100%;
     height: 15rem;
+    flex-direction: column;
 }
+
 
 .nav-mobil {
     display: none;
@@ -259,6 +260,16 @@ a:hover {
     .side-bar {
         width: 100%;
         max-width: 100%;
+    }
+
+    .site-footer {
+        width: 100%;
+        max-width: 100%;
+        font-size: 75%;
+    }
+
+    .text-footer {
+        font-size: 100%;
     }
 
     .nav-list {
